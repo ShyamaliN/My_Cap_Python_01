@@ -1,0 +1,20 @@
+final_no = int(input("The last number is :"))
+#print(final_no)
+
+n1 = 0
+n2 = 1
+count = 0
+
+           if final_no <= 0:
+               print("Enter positive integer,the given number is invalid")
+           elif final_no == 1:
+               print("The fibonacci seq. upto",final_no,"is :")  
+               print(n1) #if there is only one term then it will print n1.
+           else : 
+              print("The Fib. Seq. is :") 
+             while count < final_no :
+               print(n1)   
+               next_no = n1 + n2
+               n1 = n2
+               n2 = next_no
+               count = count + 1
